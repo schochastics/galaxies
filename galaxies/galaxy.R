@@ -5,7 +5,7 @@ source("colors.R")
 Rcpp::sourceCpp("CDF.cpp")
 w <- 14
 
-for(i in 251:350){
+for(i in 1:100){
   cat(i,"\r")
   fname <- paste0("galaxies/results/original/galaxies_",str_pad(i,3,"left",pad="0"),".png")
   # color scheme ----

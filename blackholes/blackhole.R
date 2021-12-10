@@ -9,7 +9,7 @@ colPal <- colorRamp(c("white","#FFE484","#FCCB33","#D1441B","#A43515"),bias = 2.
 
 w <- 14
 
-for(i in 51:100){
+for(i in 1:100){
   cat(i,"\r")
   fname <- paste0("blackholes/results/original/blackhole_",str_pad(i,3,"left",pad="0"),".png")
   

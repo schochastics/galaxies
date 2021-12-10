@@ -47,7 +47,7 @@ system("eog constellations/results/test6.png")
 
 system("rm constellations/results/test6.png")
 # create many ----
-for(i in 76:100){
+for(i in 1:100){
   cat(i,"\r")
   fname <- paste0("constellations/results/original/constellation_",str_pad(i,3,"left",pad="0"),".png")
 
